@@ -1,0 +1,27 @@
+body{
+    background-color: #414141;
+    color: #FFF;
+}
+/* universal selector */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* element selector */
+h1{
+    color: blue;
+}
+p{
+    color: cadetblue;
+}
+/* class selector */
+.pra{
+    color: bisque;
+}
+.hello{
+    font-size: 30px;
+}
+#id1{
+    background-color: #fff;
+}

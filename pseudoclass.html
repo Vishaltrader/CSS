@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Class</title>
+    <style>
+        .hover:hover{
+            background-color: black;
+            color: rgb(213, 26, 26);
+        }
+        /* input:focus{
+            color: red;
+            background-color: #414141;
+            font-size: 20px;
+        }
+        a:hover{
+            color: pink;
+        }
+        a:visited{
+            color: black;
+        } */
+        /* a:first-child{
+            background-color: yellow;
+        } */
+        /* a:nth-child(2){
+            background-color: yellow;
+        } */
+        /* p::first-line{
+            color: violet;
+        }
+        p::after{
+            content: "-Vishal";
+            color: aqua;
+        } */
+        p::selection{
+            background-color: #414141;
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <!-- Pseudo Class -->
+    <!-- hover -->
+    <!-- focus -->
+    <!-- link -->
+    <!-- active -->
+    <!-- visited -->
+    <!-- first-child -->
+    <!-- nth-child -->
+    <p class="hover">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, saepe.</p>
+
+    <input type="text">
+
+    <hr>
+
+
+    <nav>
+        <a href="https://www.google.com/">Google</a>
+        <a href="https://www.google.com/">Google</a>
+    </nav>
+    <!-- pseudo Elements -->
+    <nav>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam ipsa commodi molestias eveniet id! Quia consequuntur obcaecati ipsum repellendus numquam amet tempore iusto! Tempore cum libero voluptatum suscipit delectus? Odio delectus esse praesentium quo quasi. Molestias, obcaecati saepe numquam, amet consequatur harum esse error doloribus tempora, voluptatibus impedit ipsum eaque.</p>
+    </nav>
+</body>
+</html>

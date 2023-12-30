@@ -1,0 +1,46 @@
+body{
+    background-color: red;
+}
+div{
+    font-size: x-large;
+    text-align: center;
+}
+
+div::after{
+    content: 'woh its working';
+}
+/* media query */
+
+@media(max-width:400px){
+    body{
+        background-color: #fff;
+    }
+}
+/* @media(min-width:400px) and (max-width:768px){ */
+@media(400px<=width<=768px){
+
+    body{
+        background-color: yellow;
+    }
+    div::after{
+        content: 'you are between 400 to 768px';
+    }
+}
+
+
+
+@media (min-width:768px){
+    /* if viewport is atleast 900px then this style will apply */
+    body{
+        background-color:#414141;
+    }
+}
+
+@media (min-width:900px){
+    /* if viewport is atleast 900px then this style will apply */
+    body{
+        background-color: aquamarine;
+    }
+}
+
+

@@ -1,0 +1,9 @@
+/* Dec Sel */
+main p{
+    color: red;
+}
+
+/* child Selector */
+h1 > p{
+    color: blue;
+}
